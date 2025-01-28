@@ -12,6 +12,7 @@ func Server() {
     if err != nil {
         fmt.Printf("Server error: Error to run server")
     }
+    fmt.Printf("Server running: localhost:3333")
 }
 
 func getRoot(w http.ResponseWriter, r *http.Request) {
